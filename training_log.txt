@@ -1,0 +1,48 @@
+[08:16:47] corpus: train 3977932 chars, val 394756 chars
+[08:16:47] tokenizer loaded: vocab 3000
+[08:16:56] tokens: train 2090702, val 207943 (1.90 chars/token)
+[08:16:56] model params: 5.57M  config: {'vocab_size': 3000, 'block_size': 256, 'n_layer': 6, 'n_head': 8, 'd_model': 256, 'dropout': 0.0}
+[08:17:33] step 0/700  val_loss 8.0509  val_ppl 3136.61  elapsed 0.6m
+[08:17:37] step 0  train_loss 8.0539  lr 1.20e-05
+[08:19:20] step 25  train_loss 5.3357  lr 3.12e-04
+[08:20:46] step 50  train_loss 4.3657  lr 6.00e-04
+[08:22:12] step 75  train_loss 4.1402  lr 5.98e-04
+[08:24:07] step 100/700  val_loss 4.1985  val_ppl 66.58  elapsed 7.1m
+[08:24:17] step 100  train_loss 4.0321  lr 5.92e-04
+[08:25:39] step 125  train_loss 4.1647  lr 5.82e-04
+[08:27:00] step 150  train_loss 4.0914  lr 5.69e-04
+[08:28:24] step 175  train_loss 3.9974  lr 5.52e-04
+[08:30:17] step 200/700  val_loss 4.0811  val_ppl 59.21  elapsed 13.3m
+[08:30:21] step 200  train_loss 4.1540  lr 5.32e-04
+[08:31:50] step 225  train_loss 4.0057  lr 5.09e-04
+[08:33:15] step 250  train_loss 4.0746  lr 4.83e-04
+[08:34:51] step 275  train_loss 3.7846  lr 4.55e-04
+[08:36:39] step 300/700  val_loss 3.9933  val_ppl 54.23  elapsed 19.7m
+[08:36:45] step 300  train_loss 3.9393  lr 4.26e-04
+[08:38:48] step 325  train_loss 3.8990  lr 3.95e-04
+[08:40:48] step 350  train_loss 3.8411  lr 3.63e-04
+[08:42:20] step 375  train_loss 3.8403  lr 3.30e-04
+[08:44:15] step 400/700  val_loss 3.9398  val_ppl 51.41  elapsed 27.3m
+[08:44:20] step 400  train_loss 3.8921  lr 2.97e-04
+[08:45:45] step 425  train_loss 3.7959  lr 2.65e-04
+[08:47:25] step 450  train_loss 3.9165  lr 2.34e-04
+[08:49:23] step 475  train_loss 3.8877  lr 2.05e-04
+[08:54:15] step 500/700  val_loss 3.9052  val_ppl 49.66  elapsed 37.3m
+[08:54:22] step 500  train_loss 3.8270  lr 1.77e-04
+[08:57:41] step 525  train_loss 3.8340  lr 1.51e-04
+[09:01:10] step 550  train_loss 3.8632  lr 1.28e-04
+[09:04:38] step 575  train_loss 3.8068  lr 1.08e-04
+[09:08:05] RESUMED from step-500 weights (original run killed by the environment at ~step 580; see REPORT.md). Fresh optimizer state.
+[09:08:41] step 500  train_loss 3.7412  lr 1.77e-04
+[09:13:38] step 525  train_loss 3.6813  lr 1.51e-04
+[09:19:04] step 550/700  val_loss 3.8995  val_ppl 49.38  (resumed run)
+[09:19:13] step 550  train_loss 3.8560  lr 1.28e-04
+[09:25:12] step 575  train_loss 3.8538  lr 1.08e-04
+[09:33:06] step 600/700  val_loss 3.8923  val_ppl 49.02  (resumed run)
+[09:33:19] step 600  train_loss 3.6601  lr 9.09e-05
+[09:38:00] step 625  train_loss 3.7884  lr 7.75e-05
+[09:42:46] step 650/700  val_loss 3.8874  val_ppl 48.78  (resumed run)
+[09:42:55] step 650  train_loss 3.7971  lr 6.78e-05
+[09:46:40] step 675  train_loss 3.7307  lr 6.20e-05
+[09:50:43] step 700/700  val_loss 3.8821  val_ppl 48.53  (resumed run)
+[09:50:43] DONE (resumed) steps=700 best_val_loss=3.8821 best_val_ppl=48.53 resume_time=42.2m

@@ -1,0 +1,65 @@
+{
+  "seed": 20261028,
+  "val_fraction": 0.05,
+  "sources": [
+    {
+      "name": "Urdu Wikisource (urwikisource) full dump",
+      "url": "https://dumps.wikimedia.org/urwikisource/latest/urwikisource-latest-pages-articles.xml.bz2",
+      "license": "Site text CC BY-SA 4.0; underlying works public domain",
+      "articles_kept": 10859
+    },
+    {
+      "name": "Urdu Wikipedia (urwiki) dump, streamed prefix",
+      "url": "https://dumps.wikimedia.org/urwiki/latest/urwiki-latest-pages-articles-multistream.xml.bz2",
+      "license": "CC BY-SA 4.0 (attribution: Urdu Wikipedia contributors)",
+      "articles_kept": 2600
+    }
+  ],
+  "splits": {
+    "train.txt": {
+      "articles": 1273,
+      "bytes": 7056110,
+      "chars": 3977932
+    },
+    "val.txt": {
+      "articles": 161,
+      "bytes": 699375,
+      "chars": 394756
+    }
+  },
+  "pool_before_subsample": {
+    "articles": 13459,
+    "chars": 38338804
+  },
+  "subsample_caps_chars": {
+    "train": 4000000,
+    "val": 400000
+  },
+  "titles_sample": [
+    "آ گئی سر پر قضا لو سارا ساماں رہ گیا",
+    "فرقت کی آفت برے دن کاٹنا سال ہے",
+    "بڑھا دی اک نظر میں تو نے کیا توقیر پتھر کی",
+    "بھلے آدمی کہیں باز آ ارے اس پری کے سہاگ سے",
+    "آغا خان سوم",
+    "رخ و زلف پر جان کھویا کیا",
+    "جب پری رو حجاب کرتے ہیں",
+    "خیوا",
+    "دل سرد ہو گیا ہے طبیعت بجھی ہوئی",
+    "گرم ان روزوں میں کچھ عشق کا بازار نہیں",
+    "6 اپریل",
+    "زندگی سلسلۂ وہم و گماں ہے یارو",
+    "گیلوا",
+    "تضمین بر شعرِ انیسی شاملو",
+    "ان کی آرائش سے میرے کام بن جائیں گے کیا",
+    "اگر کچھ ہوش ہم رکھتے تو مستانے ہوئے ہوتے",
+    "مزاح",
+    "یاد (مصطفٰی زیدی)",
+    "محبت کی یادگار",
+    "تیرے رہنے کو مناسب تھا کہ چھپر ہوتا",
+    "دور سے آئے تھے ساقی سن کے مے خانے کو ہم",
+    "آب حیات/غلام مصطفیٰ خان یکرنگ",
+    "13 جولائی",
+    "عبد الرحمٰن جامی",
+    "صحرا پہ گر جنوں مجھے لاوے عتاب میں"
+  ]
+}
